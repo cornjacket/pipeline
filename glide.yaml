@@ -1,0 +1,4 @@
+package: github.com/cornjacket/pipeline
+import:
+- package: github.com/codegangsta/negroni
+  version: ~1.0.0
