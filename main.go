@@ -13,7 +13,7 @@ func main() {
 	if len(port) == 0 {
 		port = "8080"
 	}
-        BugAddedHereToBreakWerckerFlow
+        
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", hello)
 
