@@ -24,5 +24,5 @@ func main() {
 }
 
 func hello(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(res, "Hello from Go! Testing deploy. Take 4. Updated docker username/password in environment.")
+	fmt.Fprintln(res, "Hello from Go! Testing deploy. Take 5. Test develop does not deploy to docker hub..")
 }
